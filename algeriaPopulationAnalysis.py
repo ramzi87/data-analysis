@@ -21,7 +21,7 @@ def calcPopulation(lst,mydata):
 	
 	x = 1
 	while x < len(mydata.year):
-		_growthRate = "Population growth rate year:"
+		_growthRate = "Population growth rate for year:"
 		sep = ">>>>> "
 		print(f"{_growthRate} {mydata.year[x]} {sep} {perList[x-1]}")
 		x += 1
